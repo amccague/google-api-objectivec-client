@@ -194,7 +194,6 @@
 		4FDE227E1384818E005AEFAA /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22541384818E005AEFAA /* GTLQuery.m */; };
 		4FDE227F1384818E005AEFAA /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22561384818E005AEFAA /* GTLRuntimeCommon.m */; };
 		4FDE22801384818E005AEFAA /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22581384818E005AEFAA /* GTLService.m */; };
-		A1471A8C17CA8E7300E5D46E /* SBJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1471A8317CA8E6500E5D46E /* SBJson.framework */; };
 		F40E7366138A03CA00EE3F02 /* GTLQueryTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C37F7134B08EF00CCF631 /* GTLQueryTasks.m */; };
 		F40E7367138A03CA00EE3F02 /* GTLServiceTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C37F9134B08EF00CCF631 /* GTLServiceTasks.m */; };
 		F40E7368138A03CA00EE3F02 /* GTLTasksConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F407F0FF136F948A005A4866 /* GTLTasksConstants.m */; };
@@ -443,7 +442,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1471A8C17CA8E7300E5D46E /* SBJson.framework in Frameworks */,
 				4F18174F1134982E009F7FD1 /* Security.framework in Frameworks */,
 				4F35D4B4117787F600BDFA97 /* SystemConfiguration.framework in Frameworks */,
 			);
