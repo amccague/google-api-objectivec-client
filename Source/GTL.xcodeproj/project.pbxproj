@@ -213,41 +213,6 @@
 			remoteGlobalIDString = 4F38F6A50B66E91D00B24B81;
 			remoteInfo = GTLFramework;
 		};
-		A1471A8217CA8E6500E5D46E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1FF17D517CA8E4500BC0D3D /* SBJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BC12323D1391D5CC00131607;
-			remoteInfo = SBJson;
-		};
-		A1471A8417CA8E6500E5D46E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1FF17D517CA8E4500BC0D3D /* SBJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BC1232521391D5CC00131607;
-			remoteInfo = SBJsonTests;
-		};
-		A1471A8617CA8E6500E5D46E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1FF17D517CA8E4500BC0D3D /* SBJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BCC2626913920FC7003D9994;
-			remoteInfo = "sbjson-ios";
-		};
-		A1471A8817CA8E6500E5D46E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1FF17D517CA8E4500BC0D3D /* SBJson.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BCC2627313920FC7003D9994;
-			remoteInfo = "sbjson-iosTests";
-		};
-		A1471A8A17CA8E6D00E5D46E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1FF17D517CA8E4500BC0D3D /* SBJson.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BC12323C1391D5CC00131607;
-			remoteInfo = SBJson;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -390,7 +355,6 @@
 		4FDE22561384818E005AEFAA /* GTLRuntimeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLRuntimeCommon.m; path = Objects/GTLRuntimeCommon.m; sourceTree = "<group>"; };
 		4FDE22571384818E005AEFAA /* GTLService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLService.h; path = Objects/GTLService.h; sourceTree = "<group>"; };
 		4FDE22581384818E005AEFAA /* GTLService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLService.m; path = Objects/GTLService.m; sourceTree = "<group>"; };
-		A1FF17D517CA8E4500BC0D3D /* SBJson.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SBJson.xcodeproj; path = "../../json-framework-master/SBJson.xcodeproj"; sourceTree = "<group>"; };
 		F407F0FE136F948A005A4866 /* GTLTasksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLTasksConstants.h; path = Generated/GTLTasksConstants.h; sourceTree = "<group>"; };
 		F407F0FF136F948A005A4866 /* GTLTasksConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLTasksConstants.m; path = Generated/GTLTasksConstants.m; sourceTree = "<group>"; };
 		F45D6A4012F0B2140091E9D9 /* GTLObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLObjectTest.m; path = Tests/GTLObjectTest.m; sourceTree = "<group>"; };
@@ -453,7 +417,6 @@
 		089C166AFE841209C02AAC07 /* GoogleBundle */ = {
 			isa = PBXGroup;
 			children = (
-				A1FF17D517CA8E4500BC0D3D /* SBJson.xcodeproj */,
 				32C88E010371C26100C91783 /* GTL Source */,
 				4FCC7A1B11EFD9C80097924C /* Tests */,
 				4FA9C7410B72AB1600DA5920 /* Test Tool */,
@@ -696,17 +659,6 @@
 			name = OAuth2;
 			sourceTree = "<group>";
 		};
-		A1471A7C17CA8E6500E5D46E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1471A8317CA8E6500E5D46E /* SBJson.framework */,
-				A1471A8517CA8E6500E5D46E /* SBJsonTests.octest */,
-				A1471A8717CA8E6500E5D46E /* libsbjson-ios.a */,
-				A1471A8917CA8E6500E5D46E /* sbjson-iosTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		F47C37F5134B08C500CCF631 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
@@ -833,7 +785,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A1471A8B17CA8E6D00E5D46E /* PBXTargetDependency */,
 			);
 			name = GTLFramework;
 			productName = GTLFramework;
@@ -860,12 +811,6 @@
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* GoogleBundle */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A1471A7C17CA8E6500E5D46E /* Products */;
-					ProjectRef = A1FF17D517CA8E4500BC0D3D /* SBJson.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4F38F6A50B66E91D00B24B81 /* GTLFramework */,
@@ -875,37 +820,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A1471A8317CA8E6500E5D46E /* SBJson.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SBJson.framework;
-			remoteRef = A1471A8217CA8E6500E5D46E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A1471A8517CA8E6500E5D46E /* SBJsonTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SBJsonTests.octest;
-			remoteRef = A1471A8417CA8E6500E5D46E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A1471A8717CA8E6500E5D46E /* libsbjson-ios.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libsbjson-ios.a";
-			remoteRef = A1471A8617CA8E6500E5D46E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A1471A8917CA8E6500E5D46E /* sbjson-iosTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "sbjson-iosTests.octest";
-			remoteRef = A1471A8817CA8E6500E5D46E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4F14A9D80B1276B70072EBB8 /* Resources */ = {
@@ -1112,11 +1026,6 @@
 			target = 4F38F6A50B66E91D00B24B81 /* GTLFramework */;
 			targetProxy = 4F1AD9040B71604300DC0485 /* PBXContainerItemProxy */;
 		};
-		A1471A8B17CA8E6D00E5D46E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SBJson;
-			targetProxy = A1471A8A17CA8E6D00E5D46E /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -1322,6 +1231,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/SearchYourCloud-glaltftuxgsoeygsgiubqukdiwvh/Build/Products/Debug\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1346,6 +1259,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/SearchYourCloud-glaltftuxgsoeygsgiubqukdiwvh/Build/Products/Debug\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
